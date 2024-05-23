@@ -1,0 +1,48 @@
+.chess-piece { width: 4.5%; position: absolute; filter: drop-shadow(-3px 3px 5px #0f1012);}
+ 
+.king-dark1 { left: 7.7%; top: 80%; transform: rotate(-30deg); }
+.knight-light { left: 34%; top: 12%; transform: rotate(30deg); }
+.bishop-light { right: 30%; top: 30%; transform: rotate(-45deg); }
+.king-dark2 { right: 7.8%; top: 76.57%; transform: rotate(30deg); }
+.king-dark3 { left: 9.4%; bottom: 67%; transform: rotate(30deg); }
+.castle-light { left: 31%; bottom: 1.82%; transform: rotate(-30deg); }
+.knight-dark { right: 37.3%; bottom: 30%; transform: rotate(-30deg); }
+.king-light { right: 16.3%; bottom: 0%; transform: rotate(45deg); }
+.main-cont { gap: 3rem; }
+
+
+@media screen and (min-width: 500px) {
+    .king-dark1 { left: 12.7%; }
+    .king-dark2 { right: 11.8%; top: 107.57%; }
+    .bishop-light { right: 32%; }
+    .king-dark3 { left: 12.4%; bottom: 76%; } 
+    .knight-dark { right: 40%; bottom: 40%; }
+    .king-light { right: 17.3%; bottom: 29%; }
+    .main-cont { gap: 4rem; }
+}
+@media screen and (min-width: 640px) {
+    .king-dark1 {left: 15.7%;}
+    .knight-light { top: -30%; }
+    .bishop-light { top: 23%; }
+    .castle-light { bottom: 22%; }
+    .knight-dark { bottom: -27%; }
+    .king-light {bottom: 40%;}
+    .bishop-light {top: 18%; right: 34%;}
+    .main-cont { gap: 5rem; }
+}
+@media screen and (min-width: 768px) {
+    .main-cont { gap: 5rem; }
+    .king-dark1 {left: 17.7%; top: 110%;}
+    .knight-light {top: -70%;}
+    .bishop-light {right: 35%; top: -10%;}
+    .knight-dark {bottom: -97%;}
+    .king-dark3 {bottom: 39%; left: 14.4%;}
+    .castle-light {bottom: -44%;}
+    .king-dark2 {right: 14.8%;}
+    .king-light {right: 20.3%;}
+}
+@media screen and (min-width: 1024px) { 
+    .king-dark3 { bottom: 20%; left: 12.4%; }
+    /* .castle-light { bottom: 8%; } */
+    .main-cont { gap: 6rem; }
+}

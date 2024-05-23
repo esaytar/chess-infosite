@@ -1,0 +1,7 @@
+@media screen and (min-width: 1280px) {
+    .item.prev {transform: scale(.5) translateX(10rem); transition: .5s all;}
+    .item.prev-2 {transform: scale(.3) translateX(40rem); transition: .5s all;}
+    .item {opacity: 0; transition: all .2s; transform: scale(.2);}
+    .item.active {transform: scale(1);}
+    .item.prev, .item.prev-2, .item.active {opacity: 1;}
+}
